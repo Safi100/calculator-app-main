@@ -1,0 +1,44 @@
+
+$white-text:hsl(0, 0, 100%); // for all themes
+
+// Theme 1
+$Theme1-main-background: hsl(221, 27%, 31%);
+$Theme1-toggle-keypad-background: hsl(223, 31%, 20%);
+$Theme1-screen-background: hsl(224, 36%, 15%);
+$Theme1-delete-reset-background: hsl(225, 21%, 49%);
+$Theme1-delete-reset-shadow: hsl(224, 28%, 35%);
+$Theme1-equal-toggle-background: hsl(6, 63%, 50%);
+$Theme1-equal-shadow: hsl(6, 70%, 34%);
+$Theme1-number-operation-background: hsl(30, 25%, 89%);
+$Theme1-number-operation-shadow:hsl(28, 16%, 65%);
+$Theme1-Very-dark-grayish-blue-text: hsl(221, 14%, 31%);
+
+
+// Theme 2
+$Theme2-main-background: hsl(0, 0%, 90%);
+$Theme2-toggle-keypad-background: hsl(0, 5%, 81%);
+$Theme2-screen-background: hsl(0, 0%, 93%);
+$Theme2-delete-reset-background: hsl(185, 42%, 37%);
+$Theme2-delete-reset-shadow: hsl(185, 58%, 25%);
+$Theme2-equal-toggle-background: hsl(25, 98%, 40%);
+$Theme2-equal-shadow: hsl(25, 99%, 27%);
+$Theme2-number-operation-background: hsl(45, 7%, 89%);
+$Theme2-number-operation-shadow: hsl(35, 11%, 61%);
+$Theme2-Very-dark-grayish-yellow-text : hsl(60, 10%, 19%);
+
+
+// Theme 3
+$Theme3-main-background: hsl(268, 74%, 9%);
+$Theme3-toggle-keypad-screen-background: hsl(268, 71%, 12%);
+$Theme3-delete-reset-background: hsl(281, 89%, 26%);
+$Theme3-delete-reset-shadow: hsl(285, 91%, 52%);
+$Theme3-equal-toggle-background: hsl(176, 100%, 44%);
+$Theme3-equal-shadow: hsl(177, 92%, 70%);
+$Theme3-number-operation-background: hsl(268, 47%, 21%);
+$Theme3-number-operation-shadow: hsl(290, 70%, 36%);
+$Theme3-Light-yellow-text: hsl(52, 100%, 62%);
+$Theme3-Very-dark-blue-text: hsl(198, 20%, 13%);
+
+// Fonts
+$numbers-font-size:32px;
+$font:'Spartan', sans-serif;

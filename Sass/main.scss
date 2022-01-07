@@ -1,0 +1,103 @@
+@import "variables.scss";
+@import "themes.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.calculator-container{
+    width: 90%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    .top-calculator{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .right{
+            display: flex;
+            span{
+                align-self: flex-end;
+                font-size: 12px;
+                margin-right: 20px;
+            }
+            .toggle-container{
+                .numbers{
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 6px;
+                    font-size: 12px;
+                    margin-bottom: 3px;
+                }
+                .toggle{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                align-items: center;
+                border-radius: 50px;
+                width: 60px;
+                height: 20px;              
+                padding: 0 4px;
+                .theme{
+                    width: 13px;
+                    height: 13px;
+                    background: #000;
+                    border-radius: 50%;
+                    opacity: 0;
+                    z-index: 2;
+                    }
+                .switcher{
+                    position: absolute;
+                    opacity: 1;
+                    z-index:0;
+                    left: 4px;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .display{
+        padding: 20px;
+        height: 78px;
+        text-align: right;
+        font-size: $numbers-font-size;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .buttons-container{
+        background-color: $Theme1-screen-background;
+        padding: 15px;
+        display: grid;
+        border-radius: 5px;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+        .column_span{
+            grid-column: span 2;
+            font-size: 11px;
+        }
+        .delete{font-size: 11px;}
+        button{
+            /* font-size: 16px; */
+            padding: 8px 0;
+            border-radius: 5px;
+            border: 0;
+            box-shadow: 0em 0.15em 0em transparent;
+            transition: transform 0.2s;
+            &:active{
+                transform: scale(0.95);
+            }
+        }
+        .btn{font-size: 16px;}
+    }
+}

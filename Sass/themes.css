@@ -1,0 +1,200 @@
+.Theme1 body {
+  background: #3a4764;
+}
+
+.Theme1 body .top-calculator h2 {
+  color: white;
+}
+
+.Theme1 body .top-calculator .right span {
+  color: white;
+}
+
+.Theme1 body .top-calculator .right .toggle-container .numbers {
+  color: white;
+}
+
+.Theme1 body .top-calculator .right .toggle-container .toggle {
+  background: #232c43;
+}
+
+.Theme1 body .top-calculator .right .toggle-container .toggle .switcher {
+  background: #d03f2f;
+  -webkit-transform: translate(0px, -50%);
+          transform: translate(0px, -50%);
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+}
+
+.Theme1 body .calculator-container .display {
+  color: white;
+  background: #182034;
+}
+
+.Theme1 body .calculator-container .buttons-container {
+  background: #232c43;
+}
+
+.Theme1 body .calculator-container .buttons-container .btn {
+  color: #444b5a;
+  background: #eae3dc;
+  -webkit-box-shadow: 0em 0.15em 0em #b4a597;
+          box-shadow: 0em 0.15em 0em #b4a597;
+}
+
+.Theme1 body .calculator-container .buttons-container .delete, .Theme1 body .calculator-container .buttons-container .reset {
+  background: #637097;
+  color: white;
+  -webkit-box-shadow: 0em 0.15em 0em #404e72;
+          box-shadow: 0em 0.15em 0em #404e72;
+}
+
+.Theme1 body .calculator-container .buttons-container .equal {
+  background: #d03f2f;
+  color: white;
+  -webkit-box-shadow: 0em 0.15em 0em #93261a;
+          box-shadow: 0em 0.15em 0em #93261a;
+}
+
+.Theme1 body .attribution {
+  color: white;
+}
+
+.Theme1 body .attribution a {
+  color: #d03f2f;
+}
+
+.Theme2 body {
+  background: #e6e6e6;
+}
+
+.Theme2 body .top-calculator h2 {
+  color: #35352c;
+}
+
+.Theme2 body .top-calculator .right span {
+  color: #35352c;
+}
+
+.Theme2 body .top-calculator .right .toggle-container .numbers {
+  color: #35352c;
+}
+
+.Theme2 body .top-calculator .right .toggle-container .toggle {
+  background: #d1cccc;
+}
+
+.Theme2 body .top-calculator .right .toggle-container .toggle .switcher {
+  background: #ca5502;
+  -webkit-transform: translate(18px, -50%);
+          transform: translate(18px, -50%);
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+}
+
+.Theme2 body .calculator-container .display {
+  color: #35352c;
+  background: #ededed;
+}
+
+.Theme2 body .calculator-container .buttons-container {
+  background: #d1cccc;
+}
+
+.Theme2 body .calculator-container .buttons-container .btn {
+  color: #35352c;
+  background: #e5e4e1;
+  -webkit-box-shadow: 0em 0.15em 0em #a69d91;
+          box-shadow: 0em 0.15em 0em #a69d91;
+}
+
+.Theme2 body .calculator-container .buttons-container .delete, .Theme2 body .calculator-container .buttons-container .reset {
+  background: #377f86;
+  color: white;
+  -webkit-box-shadow: 0em 0.15em 0em #1b5f65;
+          box-shadow: 0em 0.15em 0em #1b5f65;
+}
+
+.Theme2 body .calculator-container .buttons-container .equal {
+  background: #ca5502;
+  color: white;
+  -webkit-box-shadow: 0em 0.15em 0em #893901;
+          box-shadow: 0em 0.15em 0em #893901;
+}
+
+.Theme2 body .attribution a {
+  color: #ca5502;
+}
+
+.Theme3 body {
+  background: #160628;
+}
+
+.Theme3 body .calculator-container .top-calculator h2 {
+  color: #ffe53d;
+}
+
+.Theme3 body .calculator-container .top-calculator .right span {
+  color: #ffe53d;
+}
+
+.Theme3 body .calculator-container .top-calculator .right .toggle-container .numbers {
+  color: #ffe53d;
+}
+
+.Theme3 body .calculator-container .top-calculator .right .toggle-container .toggle {
+  background: #1d0934;
+}
+
+.Theme3 body .calculator-container .top-calculator .right .toggle-container .toggle .switcher {
+  background: #00e0d1;
+  -webkit-transform: translate(40px, -50%);
+          transform: translate(40px, -50%);
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+}
+
+.Theme3 body .calculator-container .display {
+  color: #ffe53d;
+  background: #1d0934;
+}
+
+.Theme3 body .calculator-container .buttons-container {
+  background: #1d0934;
+}
+
+.Theme3 body .calculator-container .buttons-container .btn {
+  color: #ffe53d;
+  background: #341c4f;
+  -webkit-box-shadow: 0em 0.15em 0em #871c9c;
+          box-shadow: 0em 0.15em 0em #871c9c;
+}
+
+.Theme3 body .calculator-container .buttons-container .delete, .Theme3 body .calculator-container .buttons-container .reset {
+  background: #58077d;
+  color: white;
+  -webkit-box-shadow: 0em 0.15em 0em #bc15f4;
+          box-shadow: 0em 0.15em 0em #bc15f4;
+}
+
+.Theme3 body .calculator-container .buttons-container .equal {
+  background: #00e0d1;
+  color: #1b2428;
+  -webkit-box-shadow: 0em 0.15em 0em #6cf9f2;
+          box-shadow: 0em 0.15em 0em #6cf9f2;
+}
+
+.Theme3 .attribution {
+  color: white;
+}
+
+.Theme3 .attribution a {
+  color: #ffe53d;
+}
+/*# sourceMappingURL=themes.css.map */

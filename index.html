@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="Theme1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Sass/main.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="top-calculator">
+      <h2>calc</h2>
+      <div class="right">
+        <span>THEME</span>
+        <div class="toggle-container">
+          <div class="numbers">
+            <label id="theme1">1</label>
+            <label id="theme2">2</label>
+            <label id="theme3">3</label>
+          </div>
+          <div class="toggle">
+            <div class="theme switcher" id="switcher"></div>
+            <div class="theme" id="theme1"></div>
+            <div class="theme" id="theme2"></div>
+            <div class="theme" id="theme3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="display"></div>
+    <div class="buttons-container">
+      <button class="button btn" value="7">7</button>
+      <button class="button btn" value="8">8</button>
+      <button class="button btn" value="9">9</button>
+      <button class="button delete" value="">DEL</button>
+      <button class="button btn" value="4">4</button>
+      <button class="button btn" value="5">5</button>
+      <button class="button btn" value="6">6</button>
+      <button class="button btn operation" value="+">+</button>
+      <button class="button btn" value="1">1</button>
+      <button class="button btn" value="2">2</button>
+      <button class="button btn" value="3">3</button>
+      <button class="button btn operation" value="-">-</button>
+      <button class="button btn" value=".">.</button>
+      <button class="button btn" value="0">0</button>
+      <button class="button btn operation" value="/">/</button>
+      <button class="button btn operation" value="*">x</button>
+      <button class="reset column_span">RESET</button>
+      <button class="equal column_span">=</button>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Safi100" target="_blank">Safi Nafi</a>.
+  </div>
+</body>
+</html>
+
+<script src="Java script/toggle.js"></script>
+<script src="Java script/calculator-operation.js"></script>
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>
