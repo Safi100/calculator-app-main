@@ -19,11 +19,17 @@ button.forEach((btn)=>{
 });
 
 function calc(){
+    if(result==""){
+        return;
+    }
     result = eval(result);
     display.textContent=result;
 }
 
 deletee.addEventListener('click',()=>{
+    if(result=="Infinity"){
+        result="";
+    }
     result = result.toString().slice(0, -1);
     display.textContent=result;
 });
